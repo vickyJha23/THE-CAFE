@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+*::before, *::after, *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+html, body{
+      font-size: 16px;
+      height: 100%;
+}
+body{
+      line-height: 1.5;
+      height: 100% !important;
+      background-color: #f1f1f1;
+      font-family: 'Inconsolata', sans-serif;
+}
+header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 1;
+     height: auto;
+}
+.top-nav{
+      background-color: #000;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 16px;
+}
+.top-nav a{
+     text-decoration: none;
+     color: #fff;
+     text-align: center;
+     padding: 8px 16px;
+}
+.top-nav a:hover{
+     background: #ccc;
+}
+#home{
+     height: 75%;
+     position: relative;
+}
+#home .hero{
+     background-image: url('/images/coffeehouse.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     min-height: 100%;
+}
+.hero h1{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 90px;
+     color: #fff;
+}
+.order-info-container{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      padding: 8px 16px;
+      justify-content: space-between;
+      color: #fff;
+}
+.time{
+    background: #000;
+    padding: 0 8px;
+}
+.container{
+     padding: 0.01rem 16px;
+}
+.content{
+     max-width: 700px;
+     margin: 0 auto;
+}
+.content h5 span{
+     background-color: #000;
+     color: #fff;
+     padding: 0 8px;
+     display: inline-block;
+}
+.panel{
+    background-color: #f1f1f1;
+    border-left: 5px solid red;
+    padding: 0.01rem 16px;
+}
+.row{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     justify-content: space-between;
+     /* background-color: #f1f1f1; */
+     padding: 8px 16px;
+}
+.row a{
+     padding: 0 8px;
+     text-decoration: none;
+     color: #000;
+     font-size: 18px;
+     text-align: center;
+}
+.row a.active, .active{
+     background: #333;
+     color: #fff;
+}
+.eat, .drinks{
+    /* background-color: #f1f1f1; */
+    padding: 48px 16px;
+    display:none;
+}
+.show-eat, .show-drinks{
+      display: block;
+}
+form input{
+       width: 100%;
+       margin-bottom: 16px;
+       padding: 16px 8px;
+       font-size: 18px;
+       outline: none;
+}
+form input:focus{
+      border: 1px solid blue;
+}
+.submitBtn{
+      background: #000;
+      padding: 8px 16px;
+      color: #fff;
+      outline: none;
+      border: none;
+      font-size: 18px;
+      display: inline-block;
+      margin: 18px 0;
+      vertical-align: middle;
+      cursor: pointer;
+      font-weight: 100;
+      overflow: hidden;
+      white-space: nowrap;
+}
+.submitBtn:hover{
+      background-color: #ccc;
+      color: #000;
+      /* font-weight: 400; */
+}
+
+.footer-content{
+      background-color: #d5d4d4;
+      padding: 64px;
+      text-align: center;
+      text-transform: capitalize;
+}
+
+.footer-content p a, .footer-content{
+      color: #fff;
+      font-size: 18px;
+}

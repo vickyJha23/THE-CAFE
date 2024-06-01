@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cafe || website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+       <header>
+              <nav class="top-nav">
+                    <a href="#" class="uppercase">home</a>
+                    <a href="#" class="uppercase">about</a>
+                    <a href="#" class="uppercase">menu</a>
+                    <a href="#" class="uppercase">where</a>
+              </nav>
+       </header>
+
+       <section id="home">
+             <div class="hero grayScale-50">
+                  <h1>the <br/>
+                         Cafe
+                  </h1>
+                  <div class="order-info-container">
+                       <div class="time">
+                          Open from 6am to 5pm
+                       </div>
+                       <div class="add">
+                          15 Adr, stree, 5015
+                       </div>
+                  </div>
+             </div>
+       </section>
+       <section id="about" class="container">
+              <div class="content">
+                    <h5 class="padding-64 uppercase center margin-10 fs-18 ltr-spacing"><span>About the Cafe</span></h5>
+                    <p class="margin-15">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="margin-15">In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+                    <div class="panel margin-16">
+                        <p class="margin-15"><i>"Use products from nature for what it's worth - but never too early, nor too late. " Fresh is the new sweet</i></p>
+                        <p class="margin-15">Chef, Coffeeist and Owner: Liam Brown</p>
+                    </div>
+                    <img  class="margin-top-16" src="/images/coffeeshop.jpg" alt="()" style="width: 100%">
+                    <p class="margin-15 fs-18"><b>Opening hours</b>: everybody from 6am to 5pm</p>
+                    <p class="margin-15 fs-18"><b>Address:</b> 15 Adr street, 5015, NY</p>
+              </div>
+       </section>
+
+       <section id="menu" class="container">
+         <div class="content">
+                <h5 class="center fs-18 margin-10 padding-48 uppercase ltr-spacing"><span>The menu</span></h5>
+                <div class="row card">
+                      <a href="javascript:void(0)" class="active" id="eat">Eat</a>
+                      <a href="javascript:void(0)" id="drinks">Drink</a>
+                </div>
+                <div class="eat menu container card" id="EAT">
+                    <h5 class="margin-10 fs-18 fw-400">Bread Basket</h5>
+                    <p class="margin-15 gray">Assortment of fresh baked fruits breads and muffins 5.50</p>
+                    <br>
+                    <h  5 class="margin-10 fs-18 fw-400">Honey Almond Granola with fruits</h>
+                    <p class="margin-15 gray">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                    <br>
+                    <h5 class="margin-10 fs-18 fw-400">Belgian Waffle</h5>
+                    <p class="margin-15 gray">Vanilla flavored batter with malted flour 7.50</p>
+                    <br>
+                    <h5 class="margin-10 fs-18 fw-400">Scrambled eggs</h5>
+                    <p class="margin-15 gray">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                    <br>
+                    <h5 class="margin-10 fs-18 fw-400">Blueberry Pancakes</h5>
+                    <p class="margin-15 fs-18 gray">With syrup, butter and lots of berries 8.50</p>
+                </div>
+                <div class="drinks menu container card" ID="DRINKS">
+                      <h5 class="margin-10 fs-18 fw-400">Coffee</h5>
+                      <p class="margin-15 gray">Regular coffee 2.50</p>
+                      <br>
+                      <h5 class="margin-10 fs-18 fw-400">Chocolato</h5>
+                      <p class="margin-15 gray">Chocolate espresso with milk 4.50</p>
+                      <br>
+                      <h5 class="margin-10 fs-18 fw-400">Coretto</h5>
+                      <p class="margin-15 gray">Whiskey and coffee 3.00</p>
+                      <br>
+                      <h5 class="margin-10 fs-18 fw-400">Iced tea</h5>
+                      <p class="margin-15 gray">Hot tea, except not hot  3.00</p>
+                      <br>
+                      <h5 class="margin-10 fs-18 fw-400">Soda</h5>
+                      <p class="margin-15 gray">Coke, Sprite, Fanta, etc 2.50</p>
+                </div>
+                <img src="images/coffeehouse2.jpg" alt="()" style="width: 100%;" class="margin-top-32">
+         </div>
+       </section>
+       <section id="where" class="container" style="padding-bottom: 32px;">
+            <div class="content">
+                  <h5 class="uppercase ltr-spacing center padding-48 fs-18 margin-10"><span>where to find us</span></h5>
+                  <p class="margin-15 fs-18">Find us at some address at some place</p>
+                  <img src="/images/map.jpg" alt="()" style="width: 100%" class="grayScale-70 margin-top-16">
+                  <p class="margin-15"><span class="tag">FYI!</span> We offer full service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                  <p class="margin-15"><b>Reserve</b> a table, ask for today's special or just send us a message</p>
+                  <form>
+                     <input type="text" placeholder="Name" required name="Name">
+                     <input type="number" placeholder="How many people" required name="People">
+                     <input type="datetime-local" value="2022-01-22T10:45">
+                     <input type="text" placeholder="Message \ Special requirements" required name="Message">
+                     <button class="submitBtn">SEND MESSAGE</button>
+                  </form>
+            </div>
+       </section>
+      <section id="footer">
+            <div class="footer-content">
+                   <p class="margin-15">&copy; rights reserved by <a href="#">Rajesh jha</a></p>
+            </div>
+      </section>
+
+    
+</body>
+</html>
